@@ -1,6 +1,6 @@
 # tests/test_basic_math.py
 import unittest
-from MathAnalyzer import factorial, is_prime, fibonacci # type: ignore
+from MathAnalyzer import factorial, is_prime, fibonacci 
 
 class TestBasicMath(unittest.TestCase):
     def test_factorial(self):
